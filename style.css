@@ -27,7 +27,7 @@
 }
 
 .sec-fifth{
-    background-color: hsl(0deg 0% 12%);;
+    background-color: hsl(0deg 0% 12%);
 }
 
 .sec-fifth img{
@@ -35,5 +35,13 @@
 }
 
 .sec-seventh{
-    background-color: hsl(20deg 2% 74%);;
+    background-color: hsl(20deg 2% 74%);
+}
+
+.sec-nineth{
+    background-color: hsl(230deg 46% 16%);
+}
+
+footer{
+    background-color: hsl(214deg 100% 31%);
 }
