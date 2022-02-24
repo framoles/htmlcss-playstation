@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-th{
+    background-color: black;
+}
+
+.top-head img{
+    width: 100px;
+}
+
+.jumbotron{
+    background-image: url("img/jumbo-bg.png");
+    background-size: cover;
+}
+
+.sec-firts img{
+    border-radius: 10px;
+}
