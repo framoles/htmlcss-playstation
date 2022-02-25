@@ -12,13 +12,35 @@
     width: 100px;
 }
 
+.btn{
+    border-radius: 50px !important;
+}
+
 .jumbotron{
     background-image: url("img/jumbo-bg.png");
     background-size: cover;
 }
 
-.sec-firts img{
+.br10px{
     border-radius: 10px;
+}
+
+.sec-firts img{
+    transition: 300ms;
+}
+
+.imgtransp{
+    opacity: 0.5;
+}
+
+.sec-firts img:hover{
+    transform: translateY(-15px);
+    opacity: 1;
+}
+
+#imgactive{
+    border: 2px solid rgba(59, 59, 201, 0.712);
+    padding: 3px;
 }
 
 .sec-firth{
