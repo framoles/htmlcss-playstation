@@ -4,8 +4,24 @@
     box-sizing: border-box;
 }
 
+.mt-10{
+    margin-top: 10rem;
+}
+
+.gx-2{
+    gap: 2rem 0;
+}
+
 .bg-th{
     background-color: black;
+}
+
+.w30px{
+    width: 30px;
+}
+
+li{
+    list-style: none;
 }
 
 .top-head img{
@@ -16,6 +32,9 @@
     border-radius: 50px !important;
 }
 
+#search-ico:hover + #searchshow{
+    opacity: 0.1;
+}
 .jumbotron{
     background-image: url("img/jumbo-bg.png");
     background-size: cover;
@@ -34,13 +53,26 @@
 }
 
 .sec-firts img:hover{
-    transform: translateY(-15px);
     opacity: 1;
+}
+
+@media screen and (min-width: 992px) {
+    .sec-firts img:hover{
+        transform: translateY(-15px);
+    }
 }
 
 #imgactive{
     border: 2px solid rgba(59, 59, 201, 0.712);
     padding: 3px;
+}
+
+.sec-third img:hover{
+    opacity: 1;
+}
+
+#sec3-active{
+    border-bottom: 2px solid #0070d1;
 }
 
 .sec-firth{
@@ -54,16 +86,49 @@
 
 .sec-fifth img{
     border-radius: 10px;
+    margin-bottom: 10px;
+    transition: 300ms;
+}
+
+.sec-fifth img:hover{
+    transform: scale(105%);
 }
 
 .sec-seventh{
     background-color: hsl(20deg 2% 74%);
 }
 
+.sec-eighth img{
+    transition: 300ms;
+}
+
+.sec-eighth img:hover{
+    transform: scale(105%);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
 .sec-nineth{
     background-color: hsl(230deg 46% 16%);
 }
 
+.sec-tenth img:hover {
+    opacity: 0.7;
+    animation: bounce infinite 2s;
+  }
+  @keyframes bounce {
+    30% { transform: translateY(15px); }
+    60% { transform: translateY(0); }
+  }
+
 footer{
     background-color: hsl(214deg 100% 31%);
+}
+
+#firstlink{
+    position: absolute;
+    background-color: white;
+}
+
+.nav-link:hover{
+    color: #0070d1 !important;
 }
