@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+:root{
+    --buy : #cd3d0f;
+    --buyhov : #ad370f;
+}
+
 .mt-10{
     margin-top: 10rem;
 }
@@ -32,16 +37,38 @@ li{
     border-radius: 50px !important;
 }
 
-#search-ico:hover + #searchshow{
-    opacity: 0.1;
+.btn-primary:hover{
+    outline: 2px solid var(--primary);
+    outline-offset: 2px ;
 }
+
+.btn-buy{
+    background-color: var(--buy);
+    color: white;
+}
+
+.btn-buy:hover{
+    outline: 2px solid var(--buy);
+    outline-offset: 2px;
+    background-color: var(--buyhov);
+}
+
+.btn-now:hover{
+    outline: 2px solid white;
+    outline-offset: 2px;
+}
+
+.nav-link:hover{
+    color: #0070d1 !important;
+}
+
 .jumbotron{
     background-image: url("img/jumbo-bg.png");
     background-size: cover;
 }
 
 .br10px{
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .sec-firts img{
@@ -124,11 +151,31 @@ footer{
     background-color: hsl(214deg 100% 31%);
 }
 
-#firstlink{
+#firstlink, #secondlink{
     position: absolute;
     background-color: white;
 }
 
-.nav-link:hover{
-    color: #0070d1 !important;
+.top-foot ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+/* testing */
+
+.bord{
+    border: 2px solid red;
+}
+
+/* media dropdown */
+
+@media screen and (max-width: 992px) {
+
+    .dropshow{
+        display: none !important;
+    }
+    
 }
